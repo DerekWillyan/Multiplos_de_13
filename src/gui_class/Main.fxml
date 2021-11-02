@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="153.0" prefWidth="175.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gui_class.MainController">
+   <children>
+      <TextField layoutX="42.0" layoutY="27.0" prefHeight="25.0" prefWidth="119.0" fx:id="x" />
+      <TextField fx:id="y" layoutX="42.0" layoutY="64.0" prefHeight="25.0" prefWidth="119.0" />
+      <Text layoutX="25.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" />
+      <Text layoutX="25.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y" />
+      <Button fx:id="gerar" layoutX="60.0" layoutY="98.0" mnemonicParsing="false" onAction="#onbtnGerar" text="Gerar" />
+      <Label fx:id="resul" alignment="CENTER" layoutX="60.0" layoutY="132.0" prefHeight="15.0" prefWidth="55.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
